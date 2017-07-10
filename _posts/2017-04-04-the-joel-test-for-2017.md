@@ -20,7 +20,7 @@ Back in 2013, I took a course on "Software Architecture, Process, and Management
     11. Do new candidates write code during their interview?
     12. Do you do hallway usability testing?
 
-The beauty of the Joel test is that in a relatively small number of yes or no questions, you can get the answers you are looking for. There are no exceptions or caveats that need to be taken into account, it's purely yes or no to each question and you have your results. A score of 12 is perfect, 11 tolerable and 10 or less is a failure. This beauty did not go unnoticed by me or by a few of my fellow students. I quickly used it to gauge the quality of companies I was interviewing at for internships and later for my first job out of university. Most employers had never heard of the test, which wasn't surprising. What _was_ surprising was how many companies, which I had previously though were good, failed the test. 
+The beauty of the Joel test is that in a relatively small number of yes or no questions, you can get the answers you are looking for. There are no exceptions or caveats that need to be taken into account, it's purely yes or no to each question and you have your results. A score of 12 is perfect, 11 tolerable and 10 or less is a failure. This beauty did not go unnoticed by me or by a few of my fellow students. I quickly used it to gauge the quality of companies I was interviewing at for internships and later for my first job out of university. Most employers had never heard of the test, which wasn't surprising. What _was_ surprising was how many companies, which I had previously thought were good, failed the test. 
 
 Was I getting the questions wrong? Was I not making them clear? Maybe I just couldn't count properly all the way to twelve? 
 
