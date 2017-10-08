@@ -41,6 +41,3 @@ risks.
 For one final time, 1Password is still safe as a password manager. I will
 continue to use it. I have no intention of switching to any other manager. 
 
-Oh, and just to reassure me that there are no hard feelings, AgileBits have sent
-me a goody bag. I'll post pictures of it on Twitter when it arrives. You can
-follow me on Twitter here: [@Vel0x](https://twitter.com/vel0x)
