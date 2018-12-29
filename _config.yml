@@ -127,6 +127,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: Terms & Conditions
+      icon: "fas fa-balance-scale"
+      url: "terms"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url:
