@@ -18,11 +18,13 @@ in a particular use of this method, I knew that the data I returned was going to
 be a `UIImage`. Actually, I knew that it should be a `UIImage`. In order to
 avoid bugs down the road, I checked the type first:
 
-    id myObject = [myCache getItem:@"someKey"];
-    if (![myObject isKindOfClass:[UIImage class]]) 
-    {
-        NSLog(@"Things went wrong!");
-    }
+```objc
+id myObject = [myCache getItem:@"someKey"];
+if (![myObject isKindOfClass:[UIImage class]]) 
+{
+    NSLog(@"Things went wrong!");
+}
+```
 
 Now, if it's not a `UIImage` we can detect it. Right? Well, no. 
 
@@ -60,13 +62,14 @@ is a method named `object_getClassName()`. This takes the instance of a class
 While it makes checking inheritance a little awkward, we can definitely use it
 on unknown types to make our check look something more like:
 
-    id myObject = [myCache getItem:@"someKey"];
-    const char* objectName = object_getClassName(myObject);
-    if (strcmp(objectName, "MyRootClass") != 0)
-    {
-        NSLog(@"Things went wrong"!);
-    }
-
+```objc
+id myObject = [myCache getItem:@"someKey"];
+const char* objectName = object_getClassName(myObject);
+if (strcmp(objectName, "MyRootClass") != 0)
+{
+    NSLog(@"Things went wrong"!);
+}
+```
 
 On a final note, please don't use custom base classes. You basically don't ever
 have a good reason. I'm not saying that good reasons don't exist, I'm just
