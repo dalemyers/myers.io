@@ -42,7 +42,9 @@ practices, especially since Youtube has done it correctly.
 So what is the new way? Basically you use a `link` tag in your HTML. The most
 common one, which works in all browsers is as follows:
 
-    <link rel="shortcut icon" href="http://example.com/myicon.ico" />
+```html
+<link rel="shortcut icon" href="http://example.com/myicon.ico" />
+```
 
 There are other variations which can be seen easily at
 [this](http://en.wikipedia.org/wiki/Favicon#How_to_use) Wikipedia article. These variations let you do things like use PNG
