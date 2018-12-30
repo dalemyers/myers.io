@@ -17,18 +17,22 @@ click. There are multiple ways of disabling right click, but the most common way
 is to use JavaScript and to reassign the `oncontextmenu` event. To get around
 this simply open your browsers console and enter:
 
-    document.oncontextmenu = new function(e){return true;}
+```javascript
+document.oncontextmenu = new function(e){return true;}
+```
 
 Sometimes this isn't enough however and you may need to re-enable more
 functions. Reason being that when you right click, the mouse down and up events
 still fire and the click can be prevented there. Apply the following lines until
 you find which works:
 
-    document.onmousedown = new function(e){return true;}
-    document.onmouseup = new function(e){return true;}
-    document.body.oncontextmenu = new function(e){return true;}
-    document.onmousedown = new function(e){return true;}
-    document.onmouseup = new function(e){return true;}
+```javascript
+document.onmousedown = new function(e){return true;}
+document.onmouseup = new function(e){return true;}
+document.body.oncontextmenu = new function(e){return true;}
+document.onmousedown = new function(e){return true;}
+document.onmouseup = new function(e){return true;}
+```
 
 Unfortunately, this list isn't fool proof. To do that would take far too much
 time, if it is even possible. If these don't work, I suggest digging around in
