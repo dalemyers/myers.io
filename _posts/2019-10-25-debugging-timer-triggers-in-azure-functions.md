@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Debugging Timer Triggers in Azure Functions
-date: 2019-10-25 12:00:00
+date: 2019-10-25 08:15:00
 tags: [azure, functions]
 ---
 
