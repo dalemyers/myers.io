@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Easy Request Response Rules in Fidder
+title: Easy Request Response Rules in Fiddler
 date: 2016-10-25 11:52:00
 tags: [fiddler, http, web]
 ---
